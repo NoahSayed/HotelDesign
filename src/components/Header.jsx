@@ -16,7 +16,7 @@ function Header() {
   <navmenu>
            
            
-  <h1> <i>Sample logo</i></h1>     
+  <h1 className="sample" > <i>Sample logo</i></h1>     
          
             
           

@@ -1,0 +1,36 @@
+
+.featured{
+    width: 100%;
+    max-width: 1114px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+    position: absolute;
+    top: 900px;
+
+  }
+  .featuredItem{
+    position: relative;
+    color: white;
+    overflow: hidden;
+    flex:1;
+    
+  }
+  .featuredI{
+    margin-top: 20px;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 1px 5px black;
+  }
+  .featuredImg{
+    width: 300px;
+    height: 180px;
+    margin : 20px;
+    box-shadow: 0 1px 5px black;
+    
+  }
+  wrap{
+    display : grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
